@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
   res.sendFile('C:/Ricky/Drone/ADEL API/ADEL/api/model/drone_detection.h5')
 });
 
-const port = 80;
+const port = 8000;
 app.listen(port, "localhost", () => {
   console.log(`Listening at http://localhost:${port}`);
 });
