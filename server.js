@@ -29,7 +29,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.sendFile('C:/Ricky/Drone/ADEL API/ADEL/api/model/drone_detection.h5')
+  res.sendFile('/root/ADEL-API/model/model.zip')
 });
 
 const port = 8000;
